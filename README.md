@@ -14,8 +14,5 @@ The Car License Plate Reader is a machine learning-based application designed to
 - Applies image masking to focus on the license plate area.
 - Uses Tesseract OCR for converting image-based text to machine-readable format.
 
-## Result Image
-![License Plate Reading Result](https://github.com/brosio-lsn/car_license_plate_reader/blob/master/result.jpg)
-
 ## Usage
 Guidelines on how to use the application, including requirements for image input and steps for execution, are detailed in the project's documentation.
