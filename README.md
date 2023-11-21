@@ -1,23 +1,21 @@
-# Traffic Light Reader
+# Car License Plate Reader
 
 ## Overview
-The Traffic Light Reader is an advanced machine learning-based application designed to detect and interpret traffic light signals from images. It employs image processing techniques to identify traffic light boxes, applies transformations to simplify the images, and then detects circles within each masked area to determine the dominant color among red, orange, and green.
+The Car License Plate Reader is a machine learning-based application designed to detect and read vehicle license plates. It uses advanced image processing techniques to isolate license plates in an image, then employs Tesseract OCR to read and interpret the plate numbers.
 
 ## Key Features
-- Traffic light box detection using machine learning.
-- Image transformation for simplification.
-- Circle detection in masked areas.
-- Color analysis to identify the dominant color among red, orange, and green.
+- License plate detection using machine learning models.
+- Image masking to isolate license plates for analysis.
+- Optical Character Recognition (OCR) using Tesseract to read plate numbers.
+- Suitable for automated systems like parking management or traffic monitoring.
 
 ## Technical Details
-- The application first masks each detected traffic light box.
-- Applies image transformations to simplify the traffic light image for easier processing.
-- Detects circles within each masked box.
-- Analyzes each circle to determine if red, orange, or green is the dominant color.
+- The application first detects the license plates using a trained ML model.
+- Applies image masking to focus on the license plate area.
+- Uses Tesseract OCR for converting image-based text to machine-readable format.
 
 ## Result Image
-![Traffic Light Detection Result](https://github.com/brosio-lsn/trafficLight_reader/blob/main/result.jpg)
+![License Plate Reading Result](https://github.com/brosio-lsn/car_license_plate_reader/blob/master/result.jpg)
 
 ## Usage
-Instructions on how to use the application, including image input requirements and execution steps, are provided in the project's documentation.
-
+Guidelines on how to use the application, including requirements for image input and steps for execution, are detailed in the project's documentation.
